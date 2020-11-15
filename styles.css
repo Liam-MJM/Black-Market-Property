@@ -1,0 +1,193 @@
+/* colour pallet:
+#0F0F0F black
+#3777FF blue
+#138A36 green
+#FCFCFC white */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* navbar */
+.navbar {
+  background-color: #0F0F0F;
+}
+
+.navbar-brand {
+  color: #FCFCFC;
+  font-family: 'Kurale', serif;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.logo {
+  float: left;
+  margin-right: 20px;
+}
+
+.brand-titles {
+  font-family: 'Kurale', serif;
+  font-size: 16px;
+}
+
+.navbar-nav {
+  padding-right: 100px
+}
+
+.nav-item {
+  padding-right: 30px;
+}
+
+.nav-link {
+  border-radius: 25px;
+  color: #FCFCFC;
+}
+
+/* no hover on touch screens */
+@media(hover: hover) {
+  .nav-link:hover {
+    color: #FCFCFC;
+    background-color: #3777FF;
+  }
+}
+
+.navbar-toggler-icon{
+  color: #FCFCFC;
+}
+
+/* banner */
+
+.banner{
+background-image: url("drawing.jpg");
+background-size: cover;
+background-color: #FCFCFC;
+height: 80vh;
+width: 100%;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap-reverse;
+}
+
+.tint{
+  position: absolute;
+  background-color: #3777FF;
+  opacity: 0.5;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+}
+
+.banner-content{
+color: #0F0F0F;
+text-align: center;
+z-index: 1;
+}
+
+.banner-text{
+font-family: 'Kurale', serif;
+}
+
+.title{
+  font-size: 60px;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.subtitle{
+  font-size: 35px;
+  padding-bottom: 5%;
+}
+.banner-cta{
+  padding-top: 3%;
+}
+
+.btn {
+  border-radius: 25px;
+  background-color: #138A36;
+  border-color: #138A36;
+  z-index: 1;
+}
+
+.btn:hover{
+  background-color: #FCFCFC;
+  border-color: #138A36;
+  color: #138A36;
+}
+
+/* intro */
+
+.introduction {
+  padding: 7% 3% 7%;
+  background-color: #0F0F0F;
+  color: #FCFCFC;
+}
+
+.image-section{
+}
+
+.intro-img{
+  height: auto;
+  width: 100%;
+}
+
+.intro-text{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.intro-header{
+  padding-bottom: 3%;
+}
+
+/* projects-carousel */
+
+.projects-sample{
+  padding: 7% 3% 7%;
+  background-color: #FCFCFC;
+  }
+
+.ex-2{
+  height: 65vh;
+  width: 100%;
+}
+
+.carousel-inner{
+  height: 65vh;
+  width: 100%;
+}
+
+.text-body {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.projects-title{
+  padding-bottom: 3%;
+}
+.btn-blue{
+  background-color: #3777FF;
+  border-color: #3777FF;
+}
+
+.btn-blue:hover{
+  background-color: #FCFCFC;
+  border-color: #3777FF;
+  color: #3777FF;
+}
+
+/* footer */
+
+footer{
+  padding: 3% 2% 3%;
+  text-align: center;
+  background-color: #0F0F0F;
+color: #FCFCFC;
+}
+
+.rics-logo{
+height:auto;
+width: 200px;
+}
